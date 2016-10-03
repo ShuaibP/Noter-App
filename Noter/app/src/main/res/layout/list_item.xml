@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:textSize="17sp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:visibility="gone"
+        android:ems="10"
+        android:inputType="textCapSentences"
+        android:id="@+id/editText2">
+    <requestFocus />
+        </EditText>
+
+
+    <ImageButton
+        android:id="@+id/delete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_delete_white_48dp"
+        android:tint="@color/colorAccent"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:id="@+id/addButton1"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/ic_add_white_48dp"
+        android:tint="@color/colorAccent"
+        android:background="@android:color/transparent"
+        android:visibility="gone"/>
+
+</RelativeLayout>

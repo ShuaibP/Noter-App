@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#4ecdc4</color>
+    <color name="colorBackground">#F7FFF7</color>
+    <color name="colorWaveformTint">#7f000000</color>
+    <color name="colorWaveformDefault">#00BCD4</color>
+</resources>

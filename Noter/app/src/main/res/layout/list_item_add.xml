@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/addButton"
+        android:textColor="@android:color/black"
+        android:inputType="textCapSentences|textPersonName"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+    android:id="@+id/addButton"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:tint="@color/colorAccent"
+    android:layout_alignParentRight="true"
+    android:src="@mipmap/ic_add_white_48dp" />
+</RelativeLayout>
